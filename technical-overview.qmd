@@ -1,0 +1,72 @@
+---
+title: "Technical Overview"
+format: 
+    html: 
+        toc: true
+        toc-depth: 4
+        number-sections: true
+
+---
+
+This section contains an overview of the major technical capabilities of Optiwell. The capabilities shall be reviewed in the following domains.  
+
+- Fluid Modeling 
+- Well Inflow 
+- Well bore hydraulics
+- Surface flowline hydraulics
+- Network Optimisation
+
+
+## Fluid Modeling
+Fluid modeling is fundamental to production optimization because it provides a quantitative description of how reservoir fluids behave as pressure, 
+temperature, and composition change from the reservoir to the wellbore and surface facilities.  
+Optiwell provides two fluid modeling options,  
+
+- Black oil Correlations 
+- PVT table  
+
+### Black oil Correlations  
+To calculate Bubble point, Oil formation volume factor and Solution gas oil ratio, three correlations are implemented,  
+
+- Glaso 
+- Kartoatmodjo and Schmidt 
+- Vazquez and Beggs
+
+Any selected correlation computes the set of properties (Pb, Rs, and Bo).  
+Two correlations are implemented to compute oil viscosity;  
+
+- Kartoatmodjo and Schmidt
+- Beggs and Robinson  
+
+### Well Inflow  
+Well inflow or Inflow performance relationship (IPR) describes how much fluid a reservoir can deliver into a wellbore at different bottom-hole flowing pressures. It is the relationship between the production flow rate and the flowing bottom-hole pressure.  
+Three IPR calculation models are implemented in the application.  
+
+- PI Entry 
+- Vogel 
+- Custom Table  
+
+### Wellbore Hydraulics  
+Optiwell can perform Gradient Traverse and Vertical Lift Performance (VLP) calculations. Four correlations are currently implemented to calculate VLP. They are,  
+
+- Beggs and Brill 
+- Duns and Ros 
+- Hagedorn and Brown 
+- Mukherjee and Brill 
+
+### Surface Flowline hydraulics
+
+Surface flowline hydraulics is used to model the movement of produced fluids from the wellhead to downstream facilities such as manifolds, separators, or production headers. The module calculates the pressure losses that occur along the flowline due to friction, elevation changes, acceleration effects, and multiphase flow behaviour.
+
+To compute pressure drop, liquid holdup, flow regime, and outlet pressure, the following multiphase flow pressure drop correlations are implemented: 
+
+- Beggs and Brill 
+- Mukherjee and Brill 
+
+The surface flowline hydraulics module therefore provides the pressure-flow relationship required to evaluate well deliverability, estimate arrival pressure at the separator or manifold, and support production optimization decisions such as choke setting, flowline sizing, debottlenecking, and network performance analysis.
+
+### Network Optimisation  
+
+Network optimisation is used to determine the best operating conditions for a production system containing multiple wells, flowlines, manifolds, headers, separators, compressors, pumps, and other surface facilities. The module evaluates how fluids move through the connected production network and identifies operating choke settings that maximize production, minimize pressure losses, and satisfy facility constraints.  
+
+The network optimisation module provides a systematic way to identify the most efficient production strategy for the entire asset, rather than optimizing individual wells in isolation. It supports production maximization, backpressure reduction, bottleneck identification, constraint management, and real-time production advisory decisions.

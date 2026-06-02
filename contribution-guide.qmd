@@ -1,0 +1,212 @@
+---
+title: "Contribution Guide"
+toc: true
+---
+
+# Contribution Guide
+
+This guide explains how contributors can set up the environment required to edit and build the **OptiWell documentation**.
+
+The documentation is written using **Markdown and Quarto**, and edited using **Visual Studio Code**.+
+
+The setup process takes only a few minutes.
+
+---
+
+# Required Tools
+
+To contribute to the documentation you will need:
+
+- Visual Studio Code
+- Quarto
+- Git
+- A web browser
+
+Optional but recommended:
+
+- VS Code Quarto Extension
+- VS Code Markdown Preview
+
+---
+
+# Install Visual Studio Code
+
+Visual Studio Code is the recommended editor for this project, Other options include Nodepad, Nodepad++.
+
+## Download
+
+Download VS Code from:
+
+https://code.visualstudio.com/ or Use Microsoft AppStore.
+
+Select the installer for your operating system:
+
+- Windows
+- macOS
+- Linux
+
+## Installation
+
+Run the installer and follow the standard installation steps.
+
+Recommended options during installation:
+
+- Add **"Open with Code"** to file explorer
+- Add **VS Code to PATH**
+
+---
+
+# Install Quarto
+
+Quarto is the tool used to build the documentation website.
+
+## Download
+
+Download Quarto from:
+
+https://quarto.org/docs/get-started/
+
+Select the installer for your operating system.
+
+### Windows
+
+Download and run:
+
+
+
+
+# Install Git
+
+Git is a **version control system** used to track changes in files and collaborate with other contributors.
+
+In this project:
+
+* **Git** manages changes to the documentation files.
+* **GitHub** hosts the repository online where contributors share updates.
+
+In simple terms:
+
+* **Git = the tool installed on your computer**
+* **GitHub = the online platform used for collaboration**
+
+---
+
+## Check if Git is already installed
+
+Open **Command Prompt**, **PowerShell**, or the **VS Code terminal**, and run:
+
+```bash
+git --version
+```
+
+If Git is installed, you should see something similar to:
+
+```bash
+git version 2.x.x.windows.x
+```
+
+If the system reports that `git` is not recognized, Git is not installed.
+
+You can also check the installation path with:
+
+```bash
+where git
+```
+
+---
+
+## Install Git (Windows)
+
+If Git is not installed, download it from the official website:
+
+[https://git-scm.com/downloads](https://git-scm.com/downloads)
+
+Download **Git for Windows** and run the installer.
+
+Follow the default installation steps unless your organization requires specific settings.
+
+After installation, restart your terminal and verify the installation:
+
+```bash
+git --version
+```
+
+---
+
+## Configure Git (First Time Setup)
+
+After installing Git, configure your name and email.
+These details will be attached to your commits.
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+```
+
+To verify your configuration:
+
+```bash
+git config --global --list
+```
+
+---
+
+# Create a GitHub Account
+
+To contribute to the project repository, you will need a **GitHub account**.
+
+GitHub is a platform that hosts Git repositories and allows teams to collaborate on projects.
+
+## Sign Up
+
+Go to:
+
+[https://github.com](https://github.com)
+
+Click **Sign up** and follow the instructions:
+
+1. Enter your email address
+2. Choose a username
+3. Create a password
+4. Verify your email address
+
+Once your account is created, you will be able to access repositories and submit contributions.
+
+---
+
+# Typical Contribution Workflow
+
+A typical documentation contribution process looks like this:
+
+1. Install **VS Code**
+2. Install **Quarto**
+3. Install **Git**
+4. Create a **GitHub account**
+5. Clone the repository
+6. Edit `.qmd` documentation files
+7. Commit changes using Git
+8. Push changes to GitHub
+9. Submit a **Pull Request**
+
+---
+
+# Summary
+
+To contribute to the OptiWell documentation you need:
+
+* **Visual Studio Code** for editing
+* **Quarto** for building the documentation
+* **Git** for version control
+* **GitHub** for collaboration
+
+Once these tools are installed, you will be ready to edit and contribute to the documentation.
+
+
+---
+
+# Learn More
+
+We use https://learngitbranching.js.org/
+
+```
+```

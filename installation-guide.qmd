@@ -1,0 +1,9 @@
+---
+title: "Installation Guide"
+format:
+  html:
+    toc: true
+    toc-depth: 4
+    number-sections: true
+---
+This guide explains how to install the development environment for this project.

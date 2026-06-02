@@ -1,0 +1,4 @@
+/* Override navbar background only */
+.navbar {
+  background-color: #b8c7e1 !important; /* your preferred color */
+}

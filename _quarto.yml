@@ -1,0 +1,31 @@
+project:
+  type: website 
+  preview: 
+    watch-inputs: true
+
+website:
+  title: "OptiWell"
+  navbar:
+    logo: images/nnpc-logo.png
+
+    left:
+      - href: index.qmd
+        text: Home
+      - href: technical-overview.qmd
+        text: Technical Overview
+      - href: user-guide.qmd
+        text: User Guide
+      - href: examples.qmd
+        text: Examples
+      - href: contribution-guide.qmd
+        text: Contribution Guide
+      - href: installation-guide.qmd
+        text: Installation Guide
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    number-sections: true
+    fig-align: center

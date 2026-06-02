@@ -1,0 +1,67 @@
+---
+title: "Examples"
+format:
+  html:
+    toc: true
+    toc-depth: 4
+    number-sections: true
+---
+
+
+This section demonstrates typical OptiWell workflows. 
+
+## Creating a Fluid Model 
+
+To create a fluid model, click the "+" sign to add a new fluid model. In this examplel, we will select "Black oil" 
+as the "Fluid Type" and "Correlations" as the "PVT Method" as shown below. 
+
+The following table presents the PVT data input to create a fluid model. 
+
+**PVT Data**
+```{python}
+#| echo: false  
+ 
+import pandas as pd  
+
+pvt_props = ["GOR", "Gas gravity", "API", "Salinity", "Watercut", "N2", "CO2", "H2S"]
+pvt_vals = [339, 0.727, 24, 1000000, 0.30, 0.00, 0.00, 0.00]
+
+pvt_df = pd.DataFrame({
+  "Property": pvt_props, 
+  "Value": pvt_vals, 
+
+}) 
+
+pvt_df.style.hide(axis="index")
+
+pvt_df
+
+```
+
+The following is the PVT Modeling Settings options.  
+
+```{python} 
+#| echo: false 
+
+ 
+import pandas as pd
+
+
+field = ["Bubble Point Correlation", "Solution GOR", "Oil FVF Correlation", "Oil Viscosity Correlation"]  
+select_option = ["Standing", "Standing", "Standing", "Beggs-Robinson"]  
+
+model_select_df = pd.DataFrame({
+  "Select field": field, 
+  "Selected Option": select_option
+}) 
+
+model_select_df.style.hide(axis="index")
+
+model_select_df
+
+``` 
+
+Upon making the above inputs and selections, we rename the model and save changes
+
+
+
