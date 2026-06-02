@@ -11,7 +11,7 @@ This section provides step-by-step instructions for using OptiWell.
 
 
 ## Fluid Modeling Menu
-This is used to create and manage fluid models. Fluid models can be created by selecting the add icon in the side bar. All existing models can also be seen in the side bar. Three input groups are required for fluid modeling, which include General Settings, Composition and Impurities, and PVT Modeling Settings.
+This is used to create and manage fluid models. Fluid models can be created by selecting the add icon in the sidebar. All existing models can also be seen in the sidebar. Three input groups are required for fluid modeling, which include General Settings, Composition and Impurities, and PVT Modeling Settings.
 
 ### General Settings:  
 
@@ -45,7 +45,7 @@ default units. The available fields include,
 - CO2 Content
 - N2 Content
 
-where H~2~S, C~O~2, N~2~ are impurities.  
+where H~2~S, CO~2~, and N~2~ are impurities.
 
 ### PVT Modeling Settings  
 
@@ -69,7 +69,7 @@ Selecting the button displays profiles of the following calculated properties
 - Oil Viscosity  
 
 #### Saving a Model
-After entering the fluid properties and selecting the black oil and oil viscosity correlations, the fluid model can be renamed and optional add some description and select “Save Changes” to save the model.  
+After entering the fluid properties and selecting the black oil and oil viscosity correlations, the fluid model can be renamed, optionally given a description, and saved by selecting “Save Changes.”
 
 #### Compare
 This button helps you to compare any two saved PVT models
@@ -90,7 +90,7 @@ This is used to create and manage well models. There are five tabs in the well m
 
 #### Fluid Selection 
 
-This is used to select the fluid model associatied with the well from existing fluid models.  
+This is used to select the fluid model associated with the well from existing fluid models.
 
 ### Reservoir  
 
@@ -109,7 +109,7 @@ Two IPR calculation choices are available in this select field
 Enter the reservoir pressure here. The default unit is psia.  
 
 #### Reservoir Temperature  
-This is the input field for the reservoir temperature. The default unit is degrees fahrenheit.  
+This is the input field for the reservoir temperature. The default unit is degrees Fahrenheit.
 
 #### Bubble Point Pressure  
 This is the input field for the Bubble point pressure.  
@@ -124,12 +124,12 @@ Clicking this button displays a preview of the IPR plot
 
 ![Wellbore tab](/images/user-guide/well-modeling/wellbore.png){#fig-wellbore_tab}  
 
-This tab contains all the inputs and options required to model the wellbor and surface flowline.  
+This tab contains all the inputs and options required to model the wellbore and surface flowline.
 
 #### Downhole Equipment  
 <!-- ![Downhole Equipment](/images/user-guide/well-modeling/downhole-equipment.png)   -->
 
-Each row of data inputs here decribes a downhole equipment. An equipment should have a Label, a type measured depth, diameter and roughness.  
+Each row of data inputs here describes a downhole equipment. An equipment should have a label, type, measured depth, diameter, and roughness.
 
 ##### Label  
 The Label can be any name you choose. 
@@ -430,4 +430,3 @@ The Junction has a label and a few parameters.
 
 - Elevation (ft): The elevation of the junction above the ground in ft.  
 - Type: The type of junction.
-
