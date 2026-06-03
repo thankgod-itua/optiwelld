@@ -52,7 +52,11 @@
         "\n",
         "pvt_df"
       ],
-      "id": "8243826d",
+<<<<<<< HEAD
+      "id": "686b59e5",
+=======
+      "id": "ba3ba677",
+>>>>>>> 375190567a01b5bfe5318015820ddfc804032ca3
       "execution_count": null,
       "outputs": []
     },
@@ -62,7 +66,11 @@
       "source": [
         "The following is the PVT Modeling Settings options.  "
       ],
-      "id": "862a6ec2"
+<<<<<<< HEAD
+      "id": "fa60c1d0"
+=======
+      "id": "af9a242d"
+>>>>>>> 375190567a01b5bfe5318015820ddfc804032ca3
     },
     {
       "cell_type": "code",
@@ -86,7 +94,11 @@
         "\n",
         "model_select_df"
       ],
-      "id": "6dccf3d5",
+<<<<<<< HEAD
+      "id": "65c596b1",
+=======
+      "id": "505bc058",
+>>>>>>> 375190567a01b5bfe5318015820ddfc804032ca3
       "execution_count": null,
       "outputs": []
     },
@@ -96,14 +108,25 @@
       "source": [
         "Upon making the above inputs and selections, we rename the model and save changes\n"
       ],
-      "id": "461e4280"
+<<<<<<< HEAD
+      "id": "32bb194d"
+=======
+      "id": "ce787e4e"
+>>>>>>> 375190567a01b5bfe5318015820ddfc804032ca3
     }
   ],
   "metadata": {
     "kernelspec": {
+<<<<<<< HEAD
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\user\\Documents\\optiwelld\\.venv\\share\\jupyter\\kernels\\python3"
+=======
       "display_name": "Python 3",
       "language": "python",
       "name": "python3"
+>>>>>>> 375190567a01b5bfe5318015820ddfc804032ca3
     }
   },
   "nbformat": 4,
