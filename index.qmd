@@ -9,7 +9,7 @@ format:
 ---
 
 
-# General Introduction  
+# Introduction  
 
 Welcome to the **OptiWell User Manual**.
 
