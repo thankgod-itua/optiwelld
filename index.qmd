@@ -23,11 +23,11 @@ This manual provides the information needed to understand the application, navig
 
 This user manual is intended to help users:
 
-- understand the purpose and scope of the OptiWell application
-- learn the main workflows and modules available in the platform
-- follow step-by-step guidance for using key features
-- review worked examples and usage scenarios
-- support onboarding for engineers, analysts, and contributors
+- Understand the purpose and scope of the OptiWell application
+- Learn the main workflows and modules available in the platform
+- Follow step-by-step guidance for using key features
+- Review worked examples and usage scenarios
+- Support onboarding for engineers, analysts, and contributors
 
 # Manual Structure
 
