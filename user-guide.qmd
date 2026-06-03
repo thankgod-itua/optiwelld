@@ -408,7 +408,7 @@ The pump has a label.
 
 ### Tank 
 
-The Storage Tank has a lable in the network.  
+The Storage Tank has a label in the network.  
 
 **a. Parameters.**  
 
