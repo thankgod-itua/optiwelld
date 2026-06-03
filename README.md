@@ -5,7 +5,7 @@
 ### HTTPS
 
 ```bash
-git clone https://github.com/cyphercrescent/optiwelldgit
+git clone https://github.com/cyphercrescent/optiwelld.git
 cd optiwell-docs
 ```
 
