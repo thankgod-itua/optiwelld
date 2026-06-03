@@ -12,7 +12,7 @@ This section demonstrates typical OptiWell workflows.
 
 ## Creating a Fluid Model 
 
-To create a fluid model, click the "+" sign to add a new fluid model. In this examplel, we will select "Black oil" 
+To create a fluid model, click the "+" sign to add a new fluid model. In this example, we will select "Black oil" 
 as the "Fluid Type" and "Correlations" as the "PVT Method" as shown below. 
 
 The following table presents the PVT data input to create a fluid model. 
