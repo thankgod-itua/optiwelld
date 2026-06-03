@@ -15,3 +15,5 @@ wheels/
 **/*.quarto_ipynb
 
 /.quarto/
+
+*:Zone.Identifier
